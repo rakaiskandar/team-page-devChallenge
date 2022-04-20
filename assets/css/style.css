@@ -1,0 +1,164 @@
+/* ---------- Font Theme ---------- */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+body{
+    max-width: 1400px;
+}
+.container{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0.15rem;
+    max-width: 75rem;
+}
+
+header{
+    position: relative;
+    left: 100px;
+    top: 110px;
+    z-index: 10;
+    width: 100%;
+}
+
+header .logo{
+    width: 278px;
+    line-height: 47.7px;
+}
+
+nav.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    height: 47px;
+    line-height: 47.7px;
+    font-family: "PT Serif";
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: -0.045em;
+}
+
+.team-info .heading{
+    width: 500px;
+    line-height: 27px;
+}
+
+.heading{
+    height: 27px;
+    line-height: 27px;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.team-info .heading-desc{
+    margin-top: 0.4rem;
+    width: 350px;
+    line-height: 27px;
+}
+
+.heading-desc{
+    height: 87px;
+    line-height: 27px;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.team-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    margin: 0 10px ;
+    gap: 78px;
+}
+
+.team-area img{
+    width: 90%;
+    border-radius: 25px;
+}
+
+.team-image{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-image:nth-child(1){
+    margin-bottom: 100px;
+}
+
+.team-image:nth-child(2){
+    margin-top: 330px;
+}
+
+.team-image:nth-child(3){
+    margin-bottom: 100px;
+}
+
+.team-image:nth-child(4){
+    margin-bottom: 450px;
+}
+
+.team-image:nth-child(5){
+    margin-top: 10px;
+}
+
+.team-image:nth-child(6){
+    margin-bottom: 450px;
+}
+
+.team-position{
+    width: 100%;
+    max-width: 50px;
+    height: 150px;
+}
+
+p.team-position{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    position: relative;
+    left: 155px;
+    top: 130px;
+    margin: -20px;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+}
+
+.team-name{
+    width: 100%;
+    height: 27px;
+}
+
+p.team-name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 10px -20px 10px 10px;
+    text-transform: capitalize;
+}
+
+.text{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+a{
+    color: rgb(151, 112, 112);
+    text-decoration: none;
+}
